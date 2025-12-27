@@ -27,6 +27,7 @@ These applications are designed from the ground up to be serverless and distribu
 
 #### 🟡 Beta / In Development
 *   **[Berty](https://berty.tech/)** - A secure, peer-to-peer messaging app using Bluetooth LE and mDNS. Currently in **Beta**.
+*   **[BitChat](https://bitchat.free/)** - A decentralized peer-to-peer messaging application operating over Bluetooth mesh networks. No internet or servers required.
 *   **[Scuttlebutt (Manyverse)](https://www.manyver.se/)** - A social network off the grid. Manyverse is a mobile app for the Scuttlebutt protocol. Currently in **Beta**.
 
 ---
