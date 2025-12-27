@@ -1,0 +1,84 @@
+name: Weekly Release
+
+on:
+  schedule:
+    - cron: '0 0 * * 6' # Every Saturday at 00:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    name: Create Weekly Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Determine Next Version
+        id: next_version
+        run: |
+          # Fetch all tags
+          git fetch --tags
+
+          # Get the latest tag
+          # 2>/dev/null suppresses error if no tags found
+          LATEST_TAG=$(git describe --tags --abbrev=0 2>/dev/null || echo "")
+
+          if [ -z "$LATEST_TAG" ]; then
+            echo "No tags found. Initializing version."
+            NEW_VERSION="v0.1.0"
+            echo "has_changes=true" >> $GITHUB_OUTPUT
+            echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+            echo "No previous tags. Setting version to $NEW_VERSION"
+          else
+            echo "Latest tag found: $LATEST_TAG"
+
+            # Check for commits since the latest tag
+            # We use `git log` to check if there are any commits between LATEST_TAG and HEAD
+            COMMITS=$(git log "$LATEST_TAG"..HEAD --oneline)
+
+            if [ -z "$COMMITS" ]; then
+              echo "No commits since $LATEST_TAG. Skipping release."
+              echo "has_changes=false" >> $GITHUB_OUTPUT
+            else
+              echo "Changes detected. Calculating next version."
+
+              # Remove 'v' prefix for calculation
+              VERSION_NUM=${LATEST_TAG#v}
+
+              # Split version into array (assuming X.Y.Z)
+              IFS='.' read -r -a parts <<< "$VERSION_NUM"
+
+              major="${parts[0]}"
+              minor="${parts[1]}"
+              patch="${parts[2]}"
+
+              # Default to 0 if empty
+              major=${major:-0}
+              minor=${minor:-0}
+              patch=${patch:-0}
+
+              # Increment patch version
+              patch=$((patch + 1))
+
+              NEW_VERSION="v$major.$minor.$patch"
+
+              echo "has_changes=true" >> $GITHUB_OUTPUT
+              echo "new_version=$NEW_VERSION" >> $GITHUB_OUTPUT
+              echo "Next version: $NEW_VERSION"
+            fi
+          fi
+
+      - name: Create Release
+        if: steps.next_version.outputs.has_changes == 'true'
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ steps.next_version.outputs.new_version }}
+          name: Release ${{ steps.next_version.outputs.new_version }}
+          generate_release_notes: true
+          draft: false
+          prerelease: false
