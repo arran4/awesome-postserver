@@ -20,9 +20,6 @@ These applications are designed from the ground up to be serverless and distribu
 
 ### 🧠 Knowledge Management
 
-#### 🟡 Beta / In Development
-*   **[Anytype](https://anytype.io/)** - An "everything app" for notes, tasks, and knowledge management. Uses the Anysync protocol for native P2P syncing. Currently in **Open Beta**.
-
 ### 💬 Communication
 
 #### 🟢 Stable / Mature
@@ -30,13 +27,14 @@ These applications are designed from the ground up to be serverless and distribu
 
 #### 🟡 Beta / In Development
 *   **[Berty](https://berty.tech/)** - A secure, peer-to-peer messaging app using Bluetooth LE and mDNS. Currently in **Beta**.
+*   **[BitChat](https://bitchat.free/)** - A decentralized peer-to-peer messaging application operating over Bluetooth mesh networks. No internet or servers required.
 *   **[Scuttlebutt (Manyverse)](https://www.manyver.se/)** - A social network off the grid. Manyverse is a mobile app for the Scuttlebutt protocol. Currently in **Beta**.
 
 ---
 
-## 🛠️ Capable (Requires Configuration / Plugins)
+## 🛠️ Hybrid / Capable (Centralized Default or Requires Configuration)
 
-These applications are "Local-First" and can achieve serverless syncing, but it often requires specific configuration, plugins, or third-party tools (like Syncthing) to bridge the devices.
+These applications are "Local-First". Some are centralized by default but offer P2P/Local modes (Hybrid), while others require specific configuration, plugins, or third-party tools (like Syncthing) to achieve serverless syncing.
 
 ### 📂 File Synchronization
 
@@ -50,6 +48,7 @@ These applications are "Local-First" and can achieve serverless syncing, but it 
 *   **[Joplin](https://joplinapp.org/)** - An open-source note-taking and to-do application. Supports synchronization via the file system (which can be synced via Syncthing).
 
 #### 🟡 Beta / In Development
+*   **[Anytype](https://anytype.io/)** - An "everything app" for notes, tasks, and knowledge management. Centralized by default (encrypted backup node), but supports local P2P syncing on the same network. Currently in **Open Beta**.
 *   **[Logseq](https://logseq.com/)** - A privacy-first, open-source knowledge base. Default storage is local files; sync requires 3rd party tools or the beta sync service. Currently in **Beta**.
 *   **[Affine](https://affine.pro/)** - A local-first, privacy-focused workspace combining docs, whiteboards, and databases. Self-hosting is required for serverless operation. Currently in **Beta**.
 *   **[AppFlowy](https://www.appflowy.io/)** - An open-source alternative to Notion. Supports local offline mode; syncing requires self-hosting or cloud. Currently in **Beta**.
