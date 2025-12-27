@@ -9,6 +9,8 @@ This repository maintains a curated list of software that enables multi-device s
 *   **Git Wrappers**: Applications whose primary claim to sync is simply auto-committing to a Git repository (e.g., Obsidian-git, Journal apps that just push to GitHub).
     *   *Exception*: Tools where the Git usage is "exceptional" (e.g., managing large binaries, handling partial checkouts in a unique P2P way, or complex merging logic independent of a central repo).
 *   **Local-Only Apps**: Apps that have no networking or sync capabilities at all (e.g., a standard text editor).
+*   **Traditional Federated / Home-Server Models**: Federated systems (e.g., Matrix, Lemmy, Mastodon) where a user's identity/data is permanently tied to a specific "home" server do not qualify, even if they can migrate.
+    *   *Exception*: Systems where the user info is completely transient (not fixed to a specific node) or where the client itself acts as the server, allowing presence on multiple devices in a mesh topology.
 
 ## ✅ What Qualifies
 
