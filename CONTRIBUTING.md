@@ -1,6 +1,14 @@
 # Contributing Guidelines
 
-This repository maintains a curated list of software that enables multi-device syncing without reliance on central cloud servers. We are strict about what qualifies as "Post-Cloud" or "True Serverless".
+This repository maintains a curated list of software that enables multi-device syncing without reliance on central cloud servers. We are strict about what qualifies as "Post-Cloud", "True Serverless", or **"Post-Server"**.
+
+## ℹ️ Definition of "Post-Server"
+
+**Post-Server** means software operating without mandatory reliance on any third-party server or service.
+
+*   **Relay servers are okay**, provided they do not lock the user in.
+*   **Home servers are not okay** (typical Client-Server architecture).
+*   **SMTP/POP3 counts** if any server can collect the mail and allow the user to retrieve it.
 
 ## 🛑 What DOES NOT Qualify
 

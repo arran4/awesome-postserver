@@ -1,6 +1,6 @@
 # Awesome Post-Cloud Post-NAS (True Serverless) Syncing
 
-A curated list of software that enables multi-device syncing without reliance on central cloud servers or personal NAS setups. This is often referred to as "Local-First" or "Peer-to-Peer" (P2P) software.
+A curated list of software that enables multi-device syncing without reliance on central cloud servers or personal NAS setups. This is often referred to as "Local-First", "Peer-to-Peer" (P2P), or **"Post-Server"** software.
 
 ## 🌐 Fully Distributed / P2P by Default
 
