@@ -43,6 +43,7 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 
 #### 🟢 Stable / Mature
 *   **[Briar](https://briarproject.org/)** - A messaging app designed for activists and journalists. Syncs via Bluetooth, Wi-Fi, or Tor.
+*   **[I2P-Bote](https://github.com/i2p/i2p.i2p-bote)** - A fully serverless, end-to-end encrypted email system operating within the I2P network. It stores emails in a distributed hash table (DHT) ensuring anonymity and resilience.
 *   **[Jami](https://jami.net/)** - A GNU project. Peer-to-peer audio/video calls, messaging, and file transfer. Uses a distributed hash table (DHT) for user discovery.
 *   **[Session](https://getsession.org/)** - A private messenger that routes messages through an onion-routing network (Oxen) to strip metadata. No phone numbers required; uses Account IDs. All messages are end-to-end encrypted and stored on decentralized nodes.
 *   **[SimpleX Chat](https://simplex.chat/)** - An open-source messenger with no user identifiers (no phone numbers or usernames). It uses transient relay servers (queues) to pass encrypted messages, ensuring no metadata about who contacts whom is exposed. Fully decentralized and independent.
@@ -55,6 +56,9 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 *   **[Keet](https://keet.io/)** - A P2P chat, video, and file sharing app built on the [Holepunch](https://holepunch.to/) platform. It uses a distributed database (Hypercore) to sync data directly between peers.
 *   **[RetroShare](https://retroshare.cc/)** - A decentralized communication platform for secure chat, file sharing, and mail. It builds a Friend-to-Friend (F2F) network.
 *   **[Cabal](https://cabal.chat/)** - An experimental P2P community chat platform. Chats are stored locally and synced directly between peers.
+
+#### 🔴 Legacy / Historical
+*   **[Bitmessage](https://github.com/Bitmessage/PyBitmessage)** - An encrypted, anonymous P2P messaging protocol. Messages are replicated to all nodes (flooding) for anonymity. *Note: No longer in active development.*
 
 ---
 
