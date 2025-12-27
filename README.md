@@ -18,6 +18,14 @@ These applications are designed from the ground up to be serverless and distribu
 *   **[Peergos](https://peergos.org/)** - A P2P, private, and end-to-end encrypted social storage platform. Aims to replace Google Drive/Photos.
 *   **[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/)** - A desktop client for the InterPlanetary File System. While the protocol is established, the desktop user experience is still evolving.
 
+### 🧱 Base Synchronization Tools / Protocols
+
+These tools provide the core capabilities for peer-to-peer synchronization (merging, history, state reconciliation) but may require manual transport (disk) or a separate network layer to function.
+
+*   **[Git](https://git-scm.com/)** - A distributed version control system. It enables P2P syncing of code and text via various transports (SSH, HTTP, Bundle files) and handles complex merging and history.
+*   **[git-annex](https://git-annex.branchable.com/)** - Manages files with Git, without checking the file contents into Git. It allows managing files with git, yet looking up file contents in a distributed way. Includes a [P2P protocol](https://git-annex.branchable.com/git-annex-p2p/) for connecting repositories directly.
+*   **[Unison](https://github.com/bcpierce00/unison)** - A file-synchronization tool for OSX, Unix, and Windows. It allows two replicas of a collection of files and directories to be stored on different hosts (or different disks on the same host), modified separately, and then brought up to date by propagating the changes in each replica to the other.
+
 ### 💻 Code Collaboration
 
 #### 🟢 Stable / Mature
@@ -52,10 +60,6 @@ These applications are "Local-First". Some are centralized by default but offer 
 *   **[GoodSync](https://www.goodsync.com/)** - Primarily a backup/sync tool, but offers a specific P2P "GoodSync Connect" mode to sync directly between devices.
 
 ### 🧠 Knowledge Management
-
-#### 🟢 Stable / Mature
-*   **[Obsidian](https://obsidian.md/)** - A powerful knowledge base on top of a local folder of plain text Markdown files. Serverless sync is achieved via community plugins (e.g., `obsidian-git`, `remotely-save`) or external tools like Syncthing.
-*   **[Joplin](https://joplinapp.org/)** - An open-source note-taking and to-do application. Supports synchronization via the file system (which can be synced via Syncthing).
 
 #### 🟡 Beta / In Development
 *   **[Anytype](https://anytype.io/)** - An "everything app" for notes, tasks, and knowledge management. Centralized by default (encrypted backup node), but supports local P2P syncing on the same network. Currently in **Open Beta**.
