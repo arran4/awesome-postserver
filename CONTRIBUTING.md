@@ -8,7 +8,7 @@ This repository maintains a curated list of software that enables multi-device s
 
 *   **Relay servers are okay**, provided they do not lock the user in.
 *   **Home servers are not okay** (typical Client-Server architecture).
-*   **SMTP/POP3 counts** if any server can collect the mail and allow the user to retrieve it.
+*   **SMTP/POP3**: We assess this based on how the archive / past mail is managed.
 
 ## 🛑 What DOES NOT Qualify
 
