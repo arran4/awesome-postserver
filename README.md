@@ -33,6 +33,12 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 
 ### 🧠 Knowledge Management
 
+### 📢 Social Networks & Feeds
+
+#### 🟡 Beta / In Development
+*   **[Nostr](https://nostr.org/)** - A decentralized protocol for microblogging and social networking. Users publish signed events to "dumb" relays of their choice, which act as message caches. Clients like [Damus](https://damus.io/) and [Amethyst](https://github.com/vitorpamplona/amethyst) provide the interface.
+*   **[Scuttlebutt (Manyverse)](https://www.manyver.se/)** - A peer-to-peer social network protocol. Users store their own content and sync directly (Wi-Fi, Bluetooth, or Pubs). Manyverse is a popular client.
+
 ### 💬 Communication
 
 #### 🟢 Stable / Mature
@@ -45,7 +51,6 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 *   **[Cwtch](https://cwtch.im/)** - A decentralized, metadata-resistant group chat platform. Users can host their own "safe spaces" (servers) for group conversations. All communication is routed via Tor v3 onion services for anonymity.
 *   **[Berty](https://berty.tech/)** - A secure, peer-to-peer messaging app using Bluetooth LE and mDNS. Currently in **Beta**.
 *   **[BitChat](https://bitchat.free/)** - A decentralized peer-to-peer messaging application operating over Bluetooth mesh networks. No internet or servers required.
-*   **[Scuttlebutt (Manyverse)](https://www.manyver.se/)** - A social network off the grid. Manyverse is a mobile app for the Scuttlebutt protocol. Currently in **Beta**.
 *   **[Tox](https://tox.chat/)** - A P2P instant-messaging and video-calling protocol. Uses a distributed hash table (DHT) and provides end-to-end encryption.
 *   **[Keet](https://keet.io/)** - A P2P chat, video, and file sharing app built on the [Holepunch](https://holepunch.to/) platform. It uses a distributed database (Hypercore) to sync data directly between peers.
 *   **[RetroShare](https://retroshare.cc/)** - A decentralized communication platform for secure chat, file sharing, and mail. It builds a Friend-to-Friend (F2F) network.
