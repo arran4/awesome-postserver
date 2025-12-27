@@ -37,12 +37,15 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 
 #### 🟢 Stable / Mature
 *   **[Briar](https://briarproject.org/)** - A messaging app designed for activists and journalists. Syncs via Bluetooth, Wi-Fi, or Tor.
+*   **[Jami](https://jami.net/)** - A GNU project. Peer-to-peer audio/video calls, messaging, and file transfer. Uses a distributed hash table (DHT) for user discovery.
+*   **[Session](https://getsession.org/)** - A private messenger that routes messages through an onion-routing network (Oxen) to strip metadata. No phone numbers required; uses Account IDs. All messages are end-to-end encrypted and stored on decentralized nodes.
+*   **[SimpleX Chat](https://simplex.chat/)** - An open-source messenger with no user identifiers (no phone numbers or usernames). It uses transient relay servers (queues) to pass encrypted messages, ensuring no metadata about who contacts whom is exposed. Fully decentralized and independent.
 
 #### 🟡 Beta / In Development
+*   **[Cwtch](https://cwtch.im/)** - A decentralized, metadata-resistant group chat platform. Users can host their own "safe spaces" (servers) for group conversations. All communication is routed via Tor v3 onion services for anonymity.
 *   **[Berty](https://berty.tech/)** - A secure, peer-to-peer messaging app using Bluetooth LE and mDNS. Currently in **Beta**.
 *   **[BitChat](https://bitchat.free/)** - A decentralized peer-to-peer messaging application operating over Bluetooth mesh networks. No internet or servers required.
 *   **[Scuttlebutt (Manyverse)](https://www.manyver.se/)** - A social network off the grid. Manyverse is a mobile app for the Scuttlebutt protocol. Currently in **Beta**.
-*   **[Jami](https://jami.net/)** - A GNU project. Peer-to-peer audio/video calls, messaging, and file transfer. Uses a distributed hash table (DHT) for user discovery.
 *   **[Tox](https://tox.chat/)** - A P2P instant-messaging and video-calling protocol. Uses a distributed hash table (DHT) and provides end-to-end encryption.
 *   **[Keet](https://keet.io/)** - A P2P chat, video, and file sharing app built on the [Holepunch](https://holepunch.to/) platform. It uses a distributed database (Hypercore) to sync data directly between peers.
 *   **[RetroShare](https://retroshare.cc/)** - A decentralized communication platform for secure chat, file sharing, and mail. It builds a Friend-to-Friend (F2F) network.
