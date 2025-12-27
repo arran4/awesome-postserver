@@ -1,0 +1,7 @@
+public/
+resources/
+.hugo_build.lock
+hugo_cache/
+hugo_extended_*.deb
+node_modules/
+.DS_Store
