@@ -34,6 +34,11 @@ These applications are designed from the ground up to be serverless and distribu
 *   **[Berty](https://berty.tech/)** - A secure, peer-to-peer messaging app using Bluetooth LE and mDNS. Currently in **Beta**.
 *   **[BitChat](https://bitchat.free/)** - A decentralized peer-to-peer messaging application operating over Bluetooth mesh networks. No internet or servers required.
 *   **[Scuttlebutt (Manyverse)](https://www.manyver.se/)** - A social network off the grid. Manyverse is a mobile app for the Scuttlebutt protocol. Currently in **Beta**.
+*   **[Jami](https://jami.net/)** - A GNU project. Peer-to-peer audio/video calls, messaging, and file transfer. Uses a distributed hash table (DHT) for user discovery.
+*   **[Tox](https://tox.chat/)** - A P2P instant-messaging and video-calling protocol. Uses a distributed hash table (DHT) and provides end-to-end encryption.
+*   **[Keet](https://keet.io/)** - A P2P chat, video, and file sharing app built on the [Holepunch](https://holepunch.to/) platform. It uses a distributed database (Hypercore) to sync data directly between peers.
+*   **[RetroShare](https://retroshare.cc/)** - A decentralized communication platform for secure chat, file sharing, and mail. It builds a Friend-to-Friend (F2F) network.
+*   **[Cabal](https://cabal.chat/)** - An experimental P2P community chat platform. Chats are stored locally and synced directly between peers.
 
 ---
 
@@ -51,22 +56,12 @@ These applications are "Local-First". Some are centralized by default but offer 
 #### 🟢 Stable / Mature
 *   **[Obsidian](https://obsidian.md/)** - A powerful knowledge base on top of a local folder of plain text Markdown files. Serverless sync is achieved via community plugins (e.g., `obsidian-git`, `remotely-save`) or external tools like Syncthing.
 *   **[Joplin](https://joplinapp.org/)** - An open-source note-taking and to-do application. Supports synchronization via the file system (which can be synced via Syncthing).
-*   **[TiddlyWiki](https://tiddlywiki.com/)** - A non-linear personal web notebook. It is a single HTML file that can be synced between devices using file synchronization tools.
-    *   *Clients/Tools:* [TidGi](https://github.com/tiddly-gittly/TidGi-Desktop) (Desktop app with Git sync), [Tiddloid](https://github.com/donmor/Tiddloid) (Android).
-*   **[Standard Notes](https://standardnotes.com/)** - A privacy-focused notes app. While it offers a centralized cloud by default, the server is open-source and can be [self-hosted](https://standardnotes.com/help/self-hosting/getting-started) for total control.
-*   **[Notesnook](https://notesnook.com/)** - An end-to-end encrypted note-taking app. Offers a [self-hostable sync server](https://github.com/streetwriters/notesnook-sync-server).
 
 #### 🟡 Beta / In Development
-*   **[Bangle.io](https://bangle.io/)** - A web-only WYSIWYG note-taking app that saves notes locally in Markdown format. Sync can be achieved by syncing the local folder.
 *   **[Anytype](https://anytype.io/)** - An "everything app" for notes, tasks, and knowledge management. Centralized by default (encrypted backup node), but supports local P2P syncing on the same network. Currently in **Open Beta**.
 *   **[Logseq](https://logseq.com/)** - A privacy-first, open-source knowledge base. Default storage is local files; sync requires 3rd party tools or the beta sync service. Currently in **Beta**.
 *   **[Affine](https://affine.pro/)** - A local-first, privacy-focused workspace combining docs, whiteboards, and databases. Self-hosting is required for serverless operation. Currently in **Beta**.
 *   **[AppFlowy](https://www.appflowy.io/)** - An open-source alternative to Notion. Supports local offline mode; syncing requires self-hosting or cloud. Currently in **Beta**.
-
-### 🔐 Password Management
-
-#### 🟢 Stable / Mature
-*   **[KeePassXC](https://keepassxc.org/)** - A cross-platform community-driven port of the Windows application “KeePass Password Safe”. It stores passwords in a local encrypted file, which can be synced across devices using file synchronization tools like Syncthing.
 
 ### 💰 Finance
 
