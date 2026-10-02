@@ -49,6 +49,7 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 *   **[SimpleX Chat](https://simplex.chat/)** - An open-source messenger with no user identifiers (no phone numbers or usernames). It uses transient relay servers (queues) to pass encrypted messages, ensuring no metadata about who contacts whom is exposed. Fully decentralized and independent.
 
 #### 🟡 Beta / In Development
+*   **[Knit](https://getknit.app/)** - An Android off-grid mesh messenger using Wi-Fi Aware and Bluetooth LE simultaneously. Phones advertise, discover, connect, and relay messages across multiple hops, while store-and-forward custody delivers messages when peers come into range later. It requires no account, Google Play Services, internet connection, or central server.
 *   **[Cwtch](https://cwtch.im/)** - A decentralized, metadata-resistant group chat platform. Users can host their own "safe spaces" (servers) for group conversations. All communication is routed via Tor v3 onion services for anonymity.
 *   **[Berty](https://berty.tech/)** - A secure, peer-to-peer messaging app using Bluetooth LE and mDNS. Currently in **Beta**.
 *   **[BitChat](https://bitchat.free/)** - A decentralized peer-to-peer messaging application operating over Bluetooth mesh networks. No internet or servers required.
