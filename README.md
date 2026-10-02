@@ -45,6 +45,7 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 *   **[Briar](https://briarproject.org/)** - A messaging app designed for activists and journalists. Syncs via Bluetooth, Wi-Fi, or Tor.
 *   **[I2P-Bote](https://github.com/i2p/i2p.i2p-bote)** - A fully serverless, end-to-end encrypted email system operating within the I2P network. It stores emails in a distributed hash table (DHT) ensuring anonymity and resilience.
 *   **[Jami](https://jami.net/)** - A GNU project. Peer-to-peer audio/video calls, messaging, and file transfer. Uses a distributed hash table (DHT) for user discovery.
+*   **[Meshtastic](https://meshtastic.org/)** - An open-source, off-grid LoRa mesh communication platform. Radios exchange node information and rebroadcast messages across multiple hops, forming a decentralized mesh without cell towers, internet access, or a dedicated router.
 *   **[Session](https://getsession.org/)** - A private messenger that routes messages through an onion-routing network (Oxen) to strip metadata. No phone numbers required; uses Account IDs. All messages are end-to-end encrypted and stored on decentralized nodes.
 *   **[SimpleX Chat](https://simplex.chat/)** - An open-source messenger with no user identifiers (no phone numbers or usernames). It uses transient relay servers (queues) to pass encrypted messages, ensuring no metadata about who contacts whom is exposed. Fully decentralized and independent.
 
