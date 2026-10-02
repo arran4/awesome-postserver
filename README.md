@@ -26,7 +26,6 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 *   **[git-annex](https://git-annex.branchable.com/)** - Manages files with Git, without checking the file contents into Git. It allows managing files with git, yet looking up file contents in a distributed way. Includes a [P2P protocol](https://git-annex.branchable.com/git-annex-p2p/) for connecting repositories directly.
 *   **[Unison](https://github.com/bcpierce00/unison)** - A file-synchronization tool for OSX, Unix, and Windows. It allows two replicas of a collection of files and directories to be stored on different hosts (or different disks on the same host), modified separately, and then brought up to date by propagating the changes in each replica to the other.
 
-
 ### 🧩 Protocols & Networking Stacks
 
 These are open protocol ecosystems with interoperable implementations in multiple programming languages. Language bindings around a single implementation are not sufficient for inclusion.
