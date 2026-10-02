@@ -53,6 +53,7 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 *   **[Berty](https://berty.tech/)** - A secure, peer-to-peer messaging app using Bluetooth LE and mDNS. Currently in **Beta**.
 *   **[BitChat](https://bitchat.free/)** - A decentralized peer-to-peer messaging application operating over Bluetooth mesh networks. No internet or servers required.
 *   **[Tox](https://tox.chat/)** - A P2P instant-messaging and video-calling protocol. Uses a distributed hash table (DHT) and provides end-to-end encryption.
+*   **[Sideband](https://github.com/markqvist/Sideband)** - A graphical LXMF/LXST client for Reticulum on Android, Linux, macOS, and Windows. It provides infrastructure-less peer-to-peer messaging, calls, file transfer, and telemetry over LoRa, packet radio, Wi-Fi, I2P, and other Reticulum links without requiring an Internet server.
 *   **[Keet](https://keet.io/)** - A P2P chat, video, and file sharing app built on the [Holepunch](https://holepunch.to/) platform. It uses a distributed database (Hypercore) to sync data directly between peers.
 *   **[RetroShare](https://retroshare.cc/)** - A decentralized communication platform for secure chat, file sharing, and mail. It builds a Friend-to-Friend (F2F) network.
 *   **[Cabal](https://cabal.chat/)** - An experimental P2P community chat platform. Chats are stored locally and synced directly between peers.
