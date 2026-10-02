@@ -56,6 +56,7 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 *   **[Keet](https://keet.io/)** - A P2P chat, video, and file sharing app built on the [Holepunch](https://holepunch.to/) platform. It uses a distributed database (Hypercore) to sync data directly between peers.
 *   **[RetroShare](https://retroshare.cc/)** - A decentralized communication platform for secure chat, file sharing, and mail. It builds a Friend-to-Friend (F2F) network.
 *   **[Cabal](https://cabal.chat/)** - An experimental P2P community chat platform. Chats are stored locally and synced directly between peers.
+*   **[Quiet](https://github.com/TryQuiet/quiet)** - A peer-to-peer team chat application built on Tor, libp2p/IPFS, and OrbitDB. Community devices sync data directly without a Quiet server, and gossip-based replication lets members receive messages sent while they were offline. Tor relay infrastructure is used as transport, but there is no required central or home server.
 
 #### 🔴 Legacy / Historical
 *   **[Bitmessage](https://github.com/Bitmessage/PyBitmessage)** - An encrypted, anonymous P2P messaging protocol. Messages are replicated to all nodes (flooding) for anonymity. *Note: No longer in active development.*
