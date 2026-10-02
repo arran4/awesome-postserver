@@ -18,6 +18,11 @@ These applications are designed from the ground up to be serverless and distribu
 *   **[Peergos](https://peergos.org/)** - A P2P, private, and end-to-end encrypted social storage platform. Aims to replace Google Drive/Photos.
 *   **[IPFS Desktop](https://docs.ipfs.tech/install/ipfs-desktop/)** - A desktop client for the InterPlanetary File System. While the protocol is established, the desktop user experience is still evolving.
 
+### 📤 File Transfer
+
+#### 🟢 Stable / Mature
+*   **[LocalSend](https://localsend.org/)** - An open-source, cross-platform local file-sharing app. It discovers nearby devices over the LAN using multicast UDP with an HTTP fallback and transfers files directly between peers. No account, internet connection, or central server is required.
+
 ### 🧱 Base Synchronization Tools / Protocols
 
 These tools provide the core capabilities for peer-to-peer synchronization (merging, history, state reconciliation) but may require manual transport (disk) or a separate network layer to function.
