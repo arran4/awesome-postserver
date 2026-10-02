@@ -51,6 +51,7 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 #### 🟡 Beta / In Development
 *   **[Cwtch](https://cwtch.im/)** - A decentralized, metadata-resistant group chat platform. Users can host their own "safe spaces" (servers) for group conversations. All communication is routed via Tor v3 onion services for anonymity.
 *   **[Berty](https://berty.tech/)** - A secure, peer-to-peer messaging app using Bluetooth LE and mDNS. Currently in **Beta**.
+*   **[qaul](https://qaul.net/)** - An internet-independent wireless mesh communication app for Android, Linux, macOS, and Windows. It supports automatic peer discovery over local-network mDNS and BLE and routes communication through the peer mesh without requiring a central server. The 2.0 series is currently shipping release candidates.
 *   **[BitChat](https://bitchat.free/)** - A decentralized peer-to-peer messaging application operating over Bluetooth mesh networks. No internet or servers required.
 *   **[Tox](https://tox.chat/)** - A P2P instant-messaging and video-calling protocol. Uses a distributed hash table (DHT) and provides end-to-end encryption.
 *   **[Keet](https://keet.io/)** - A P2P chat, video, and file sharing app built on the [Holepunch](https://holepunch.to/) platform. It uses a distributed database (Hypercore) to sync data directly between peers.
