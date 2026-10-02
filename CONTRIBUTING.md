@@ -25,6 +25,7 @@ This repository maintains a curated list of software that enables multi-device s
 *   **Peer-to-Peer (P2P) / Mesh**: Applications where devices communicate directly with each other (Client-to-Client) to synchronize data.
 *   **Distributed Systems**: Software built on protocols like IPFS, Hypercore, BitTorrent, or custom gossip protocols.
 *   **Base Synchronization Tools**: Tools that provide the *capability* to sync (merge logic, history, conflict resolution) but may be agnostic to the transport layer or designed for manual/disk transfer (e.g., Git itself, Windows Briefcase-style tools).
+*   **P2P Protocols & Networking Libraries**: Protocol ecosystems qualify when they directly provide meaningful post-server primitives such as peer identity and discovery, distributed routing/DHTs, gossip/pubsub, replication, NAT traversal/hole punching, mesh forwarding, or delay/disruption-tolerant delivery (e.g., libp2p), **and have interoperable implementations in at least two programming languages**. Language bindings/FFI wrappers around one implementation do not count as separate implementations. Generic socket, RPC, or transport libraries do not qualify solely because an application *could* build P2P behavior on top of them.
 *   **Disk-Based Peer Sync**: Mechanisms where the software manages the synchronization logic between a source and a removable storage medium (acting as a peer).
 
 ## 📝 Rules for Adding Software
