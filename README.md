@@ -33,6 +33,11 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 
 ### 🧠 Knowledge Management
 
+### 🗺️ Mapping & Field Data
+
+#### 🟡 Beta / In Development
+*   **[CoMapeo](https://comapeo.app/)** - An offline-first collaborative mapping and field-data application. Project data is stored locally, nearby project devices are discovered on the same Wi-Fi network, and their peer databases exchange observations and edits directly without an internet connection or centralized data server.
+
 ### 📢 Social Networks & Feeds
 
 #### 🟡 Beta / In Development
