@@ -26,6 +26,20 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 *   **[git-annex](https://git-annex.branchable.com/)** - Manages files with Git, without checking the file contents into Git. It allows managing files with git, yet looking up file contents in a distributed way. Includes a [P2P protocol](https://git-annex.branchable.com/git-annex-p2p/) for connecting repositories directly.
 *   **[Unison](https://github.com/bcpierce00/unison)** - A file-synchronization tool for OSX, Unix, and Windows. It allows two replicas of a collection of files and directories to be stored on different hosts (or different disks on the same host), modified separately, and then brought up to date by propagating the changes in each replica to the other.
 
+
+### 🧩 Protocols & Networking Stacks
+
+These are open protocol ecosystems with interoperable implementations in multiple programming languages. Language bindings around a single implementation are not sufficient for inclusion.
+
+#### 🟢 Stable / Mature
+*   **[libp2p](https://libp2p.io/)** - A modular peer-to-peer networking protocol stack covering cryptographic peer identity, discovery, routing/DHTs, pubsub, NAT traversal, relays and hole punching. Production-ready interoperable implementations include Go, Rust, JavaScript/TypeScript, Nim and Python, with additional community implementations in C++, Swift, JVM, .NET and other languages.
+*   **[IPFS](https://docs.ipfs.tech/)** - A content-addressed peer-to-peer protocol stack using CIDs, distributed routing, Bitswap-style block exchange and IPNS. Interoperable implementations include Kubo/Boxo in Go, Helia in TypeScript/JavaScript, Nabu in Java, and a Rust implementation.
+*   **[BitTorrent](https://www.bittorrent.org/beps/bep_0000.html)** - A standardized family of peer-to-peer file-distribution protocols. Trackerless operation can use the Mainline DHT, peer exchange and hole punching. Mature implementations/libraries exist independently in C++, Go, Rust and JavaScript, among other languages.
+*   **[Reticulum](https://reticulum.network/)** - A resilient encrypted networking protocol designed for self-configuring communication across LoRa, packet radio, serial links, Wi-Fi and conventional IP networks. The Python reference implementation interoperates with recognized C++ (microReticulum) and Go implementations.
+
+#### 🟡 Beta / In Development
+*   **[Waku](https://waku.org/)** - A family of decentralized messaging protocols built for peer-to-peer applications, including relay, store and peer-discovery capabilities. Independent interoperable implementations are maintained in Nim and TypeScript/JavaScript.
+
 ### 💻 Code Collaboration
 
 #### 🟢 Stable / Mature
