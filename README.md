@@ -1,6 +1,10 @@
-# Awesome Post-Server: Post-Cloud Post-NAS (True Serverless) Syncing
+# Awesome Post-Server
 
-A curated list of software that enables multi-device syncing without reliance on central cloud servers or personal NAS setups. This is often referred to as "Local-First", "Peer-to-Peer" (P2P), or **"Post-Server"** software.
+Software for sharing, communication and persistent data **without requiring a dedicated server**. Participating devices can connect directly, share state or forward information for one another; fixed home servers and mandatory always-on relays are outside the intended scope.
+
+The main list prioritizes *usable, stateful applications*. Protocols, platforms, developer libraries and accessory clients are better documented in separate ecosystem pages. “Local-first”, “federated” or “decentralized” does not automatically mean server-optional.
+
+> **Catalog review in progress:** Some older entries and open PRs predate this stricter definition. Treat their placement as provisional until reassessed.
 
 ## 🌐 Fully Distributed / P2P by Default
 
