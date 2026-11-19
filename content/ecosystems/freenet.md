@@ -14,7 +14,7 @@ The current Freenet project is a platform for applications whose code and shared
 
 ## What can you do?
 
-- [River](https://freenet.org/river/) — group chat. See the [River catalog page]({{< relref "/applications/river.md" >}}).
+- [River](https://freenet.org/river/) — group chat. The [River application](https://freenet.org/river/) is assessed separately; its catalog page is proposed in another independent PR.
 - [Delta](https://freenet.org/apps/) — distributed publishing.
 - [Atlas](https://freenet.org/apps/) — discovery and search.
 - [freenet-git](https://freenet.org/apps/) — Git operations over Freenet.
