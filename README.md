@@ -40,7 +40,6 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 ### 📢 Social Networks & Feeds
 
 #### 🟡 Beta / In Development
-*   **[Nostr](https://nostr.org/)** - A decentralized protocol for microblogging and social networking. Users publish signed events to "dumb" relays of their choice, which act as message caches. Clients like [Damus](https://damus.io/) and [Amethyst](https://github.com/vitorpamplona/amethyst) provide the interface.
 *   **[Scuttlebutt (Manyverse)](https://www.manyver.se/)** - A peer-to-peer social network protocol. Users store their own content and sync directly (Wi-Fi, Bluetooth, or Pubs). Manyverse is a popular client.
 
 ### 💬 Communication
