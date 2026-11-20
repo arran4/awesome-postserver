@@ -20,7 +20,27 @@ theme = "PaperMod"
 
 [menu]
   [[menu.main]]
+    identifier = "applications"
+    name = "Applications"
+    pageRef = "/applications"
+    weight = 10
+  [[menu.main]]
+    identifier = "ecosystems"
+    name = "Ecosystems"
+    pageRef = "/ecosystems"
+    weight = 20
+  [[menu.main]]
+    identifier = "supporting"
+    name = "Supporting"
+    pageRef = "/supporting"
+    weight = 30
+  [[menu.main]]
+    identifier = "legacy"
+    name = "Legacy"
+    pageRef = "/legacy"
+    weight = 40
+  [[menu.main]]
     identifier = "contributing"
     name = "Contributing"
-    url = "https://github.com/arran4/awesome-postserver/blob/master/CONTRIBUTING.md"
-    weight = 10
+    url = "https://github.com/arran4/awesome-postserver/blob/main/CONTRIBUTING.md"
+    weight = 50
