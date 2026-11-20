@@ -65,9 +65,9 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 
 ---
 
-## 🛠️ Hybrid / Capable (Centralized Default or Requires Configuration)
+## 🛠️ Hybrid / Capable (under architectural review)
 
-These applications are "Local-First". Some are centralized by default but offer P2P/Local modes (Hybrid), while others require specific configuration, plugins, or third-party tools (like Syncthing) to achieve serverless syncing.
+> **Provisional entries:** Local-first storage, self-hosting or external synchronization is not sufficient under the stricter server-optional definition. These historical entries remain visible while each application's native peer mode, persistent state and mandatory service dependencies are checked. They are **not** automatically recommended or eligible for the main list.
 
 ### 📂 File Synchronization
 
