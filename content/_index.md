@@ -1,6 +1,6 @@
 ---
 title: "Awesome Post-Server"
-description: "A curated list of software that enables multi-device syncing without reliance on central cloud servers or personal NAS setups."
+description: "A selective catalog of stateful software that works without mandatory dedicated servers."
 ---
 
 {{< readfile file="README.md" >}}
