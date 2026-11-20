@@ -2,7 +2,7 @@
 
 Software for sharing, communication and persistent data **without requiring a dedicated server**. Participating devices can connect directly, share state or forward information for one another; fixed home servers and mandatory always-on relays are outside the intended scope.
 
-The main list prioritizes *usable, stateful applications*. Protocols, platforms, developer libraries and accessory clients are better documented in separate ecosystem pages. “Local-first”, “federated” or “decentralized” does not automatically mean server-optional.
+The main list prioritizes *usable, stateful applications*. For wider protocol ecosystems and accessory software, we link to existing maintained indexes rather than copying them into this catalog. “Local-first”, “federated” or “decentralized” does not automatically mean server-optional.
 
 > **Catalog review in progress:** Some older entries and open PRs predate this stricter definition. Treat their placement as provisional until reassessed.
 
@@ -86,3 +86,15 @@ These tools provide the core capabilities for peer-to-peer synchronization (merg
 
 #### 🟢 Stable / Mature
 *   **[Actual Budget](https://actualbudget.com/)** - A local-first personal finance system. The core application is stable and open-source. Syncing typically requires a self-hosted relay server.
+
+## Related ecosystem indexes (not Post-Server endorsements)
+
+These broader collections include protocols, libraries and applications that **have not necessarily passed** our two-device, server-optional and persistent-state criteria. We refer to the original maintainers instead of reproducing their lists.
+
+- **[Delay-/disruption-tolerant networking — Awesome DTN](https://github.com/dtn7/awesome-dtn):** BPv7 uses bundles that can be stored and forwarded when devices reconnect. The upstream list covers implementations and applications; BPv7 itself is not a finished end-user application.
+- **[IPFS — Awesome IPFS](https://github.com/ipfs/awesome-ipfs):** Network implementations, publishing applications and accessories, including gateway-only tools that may not qualify here.
+- **[libp2p — Awesome libp2p](https://github.com/libp2p/awesome-libp2p):** Discovery, routing, transport and software built with those primitives; these alone do not make an application stateful or server-optional.
+- **[Reticulum — Awesome Reticulum](https://github.com/lorien/awesome-reticulum):** Nodes, messaging applications, radio adapters and accessories whose required infrastructure must be evaluated individually.
+
+If a useful project is missing from one of these indexes, prefer contributing it **upstream**. If the project also independently satisfies our stricter Post-Server definition, list it in the appropriate application category here with evidence, rather than creating a parallel ecosystem directory.
+
